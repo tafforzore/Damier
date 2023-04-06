@@ -1,0 +1,44 @@
+*{
+	background-color: gray;
+}
+
+td {
+	width: 60px;
+	height: 60px;
+	border-color:  black;
+	margin: 0;
+	padding: 0;
+}
+
+.black{
+	background-color: brown;
+}
+
+table{
+	border: solid 1px black;
+	width: 700px;
+	height: 700px;
+}
+
+.pions{
+	height: 50px;
+	width: 50px;
+	background-color: black;
+	border-radius: 100%;
+}
+
+td .pions{
+	transform: translate(15px);
+}
+
+.color2{
+	background-color: #b1b0c5;
+}
+
+.active{
+	border: 2px solid blue;
+}
+
+.newposition{
+	background-color: cyan;
+}
